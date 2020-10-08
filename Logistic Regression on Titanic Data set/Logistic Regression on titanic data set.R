@@ -55,7 +55,8 @@ nams$Name=NULL
 nams$Ticket=NULL
 nams$PassengerId=NULL
 nams$Cabin=NULL
-
+nams$full=NULL
+      
 library(caTools)
 split<-sample.split(nams,SplitRatio = 0.75)
 training<-subset(nams,split=="TRUE")
